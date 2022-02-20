@@ -9,7 +9,6 @@ from selenium.webdriver.firefox.options import Options  # headless
 options = Options()  # headless
 options.headless = True  # headless
 
-# s=Service('C:/Users/Aleksey/Desktop/Skillbox/9999 Parse/geckodriver.exe')
 s = Service('./geckodriver.exe')
 
 license_list = []
